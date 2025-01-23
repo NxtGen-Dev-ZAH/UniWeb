@@ -209,7 +209,7 @@ export default function AboutPage() {
           <Button className="bg-[#0C71C3] hover:bg-[#0C71C3]/90">
             Get Started
           </Button>
-          <Button variant="outline" className="border-[#0C71C3] text-[#0C71C3]">
+          <Button className="border-[#0C71C3] text-[#0C71C3]">
             Schedule Demo
           </Button>
         </div>

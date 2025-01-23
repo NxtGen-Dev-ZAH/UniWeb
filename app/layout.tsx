@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "ARID AGRICULTURE UNIVERSITY",
-  description: "Portel for OBE (OUTCOME BASED EDUCATION)",
+  description: "Portal for OBE (OUTCOME BASED EDUCATION)",
 };
 
 export default function RootLayout({
@@ -21,9 +21,9 @@ export default function RootLayout({
       <body
         className={`${inter.className} text-black bg-white overflow-x-hidden`}
       >
-        {/* <Header /> */}
+        <Header />
         <main>{children}</main>
-        <Footer />  
+        <Footer />
         {/* <Toaster /> */}
       </body>
     </html>
